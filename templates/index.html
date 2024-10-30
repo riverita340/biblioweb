@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Biblioteca</h1>
+        
+        <div class="row mb-4">
+            <div class="col-md-6 offset-md-3">
+                <input type="text" id="searchInput" class="form-control" placeholder="Buscar por título o autor">
+            </div>
+        </div>
+
+        <div id="librosList" class="row"></div>
+        
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center" id="pagination"></ul>
+        </nav>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        let currentPage = 1;
+        const limit = 20;
+
+        $(document).ready(function() {
+            // Cargar libros iniciales
+            cargarLibros();
+
+            // Buscar libros cuando se ingrese texto
+            $('#searchInput').on('input', function() {
+                currentPage = 1;
+                cargarLibros();
+            });
+        });
+
+        function cargarLibros() {
+            const query = $('#searchInput').val();
+            $.get(`/api/libros?page=${currentPage}&q=${query}`, function(data) {
+                mostrarLibros(data.libros);
+                mostrarPaginacion(data.total_pages);
+            });
+        }
+
+        function mostrarLibros(libros) {
+            const librosList = $('#librosList');
+            librosList.empty();
+
+            if (libros.length === 0) {
+                librosList.append('<div class="col-12 text-center"><p>No se encontraron libros</p></div>');
+                return;
+            }
+
+            libros.forEach(libro => {
+                librosList.append(`
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">${libro.titulo}</h5>
+                                <p class="card-text">Autor: ${libro.autor}</p>
+                                <p class="card-text"><small class="text-muted">Ubicación: ${libro.ubicacion}</small></p>
+                            </div>
+                        </div>
+                    </div>
+                `);
+            });
+        }
+
+        function mostrarPaginacion(totalPages) {
+            const pagination = $('#pagination');
+            pagination.empty();
+
+            for (let i = 1; i <= totalPages; i++) {
+                pagination.append(`
+                    <li class="page-item ${i === currentPage ? 'active' : ''}">
+                        <a class="page-link" href="#" onclick="irPagina(${i})">${i}</a>
+                    </li>
+                `);
+            }
+        }
+
+        function irPagina(page) {
+            currentPage = page;
+            cargarLibros();
+        }
+    </script>
+</body>
+</html>

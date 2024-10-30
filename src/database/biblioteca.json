@@ -1,0 +1,705 @@
+{
+    "biblioteca": [
+      {
+        "titulo": "Cien Años de Soledad",
+        "autor": "Gabriel García Márquez",
+        "genero": "Realismo Mágico",
+        "codigo": "BIB001",
+        "ubicacion": "Estante A1"
+      },
+      {
+        "titulo": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "genero": "Novela",
+        "codigo": "BIB002",
+        "ubicacion": "Estante A2"
+      },
+      {
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "genero": "Distopía",
+        "codigo": "BIB003",
+        "ubicacion": "Estante A3"
+      },
+      {
+        "titulo": "Matar a un Ruiseñor",
+        "autor": "Harper Lee",
+        "genero": "Ficción",
+        "codigo": "BIB004",
+        "ubicacion": "Estante A4"
+      },
+      {
+        "titulo": "Orgullo y Prejuicio",
+        "autor": "Jane Austen",
+        "genero": "Romance",
+        "codigo": "BIB005",
+        "ubicacion": "Estante A5"
+      },
+      {
+        "titulo": "Crimen y Castigo",
+        "autor": "Fiódor Dostoyevski",
+        "genero": "Novela",
+        "codigo": "BIB006",
+        "ubicacion": "Estante A6"
+      },
+      {
+        "titulo": "El Gran Gatsby",
+        "autor": "F. Scott Fitzgerald",
+        "genero": "Ficción",
+        "codigo": "BIB007",
+        "ubicacion": "Estante A7"
+      },
+      {
+        "titulo": "La Odisea",
+        "autor": "Homero",
+        "genero": "Épica",
+        "codigo": "BIB008",
+        "ubicacion": "Estante A8"
+      },
+      {
+        "titulo": "En Busca del Tiempo Perdido",
+        "autor": "Marcel Proust",
+        "genero": "Ficción",
+        "codigo": "BIB009",
+        "ubicacion": "Estante A9"
+      },
+      {
+        "titulo": "Ulises",
+        "autor": "James Joyce",
+        "genero": "Ficción",
+        "codigo": "BIB010",
+        "ubicacion": "Estante A10"
+      },
+      {
+        "titulo": "La Metamorfosis",
+        "autor": "Franz Kafka",
+        "genero": "Ficción",
+        "codigo": "BIB011",
+        "ubicacion": "Estante A11"
+      },
+      {
+        "titulo": "El Proceso",
+        "autor": "Franz Kafka",
+        "genero": "Ficción",
+        "codigo": "BIB012",
+        "ubicacion": "Estante A12"
+      },
+      {
+        "titulo": "El Guardián entre el Centeno",
+        "autor": "J.D. Salinger",
+        "genero": "Ficción",
+        "codigo": "BIB013",
+        "ubicacion": "Estante A13"
+      },
+      {
+        "titulo": "Las Flores del Mal",
+        "autor": "Charles Baudelaire",
+        "genero": "Poesía",
+        "codigo": "BIB014",
+        "ubicacion": "Estante A14"
+      },
+      {
+        "titulo": "La Ilíada",
+        "autor": "Homero",
+        "genero": "Épica",
+        "codigo": "BIB015",
+        "ubicacion": "Estante A15"
+      },
+      {
+        "titulo": "Fausto",
+        "autor": "Johann Wolfgang von Goethe",
+        "genero": "Tragedia",
+        "codigo": "BIB016",
+        "ubicacion": "Estante A16"
+      },
+      {
+        "titulo": "El Hombre Invisible",
+        "autor": "H.G. Wells",
+        "genero": "Ciencia Ficción",
+        "codigo": "BIB017",
+        "ubicacion": "Estante A17"
+      },
+      {
+        "titulo": "Frankenstein",
+        "autor": "Mary Shelley",
+        "genero": "Ciencia Ficción",
+        "codigo": "BIB018",
+        "ubicacion": "Estante A18"
+      },
+      {
+        "titulo": "Drácula",
+        "autor": "Bram Stoker",
+        "genero": "Terror",
+        "codigo": "BIB019",
+        "ubicacion": "Estante A19"
+      },
+      {
+        "titulo": "El Retrato de Dorian Gray",
+        "autor": "Oscar Wilde",
+        "genero": "Ficción",
+        "codigo": "BIB020",
+        "ubicacion": "Estante A20"
+      },
+      {
+        "titulo": "Moby Dick",
+        "autor": "Herman Melville",
+        "genero": "Aventura",
+        "codigo": "BIB021",
+        "ubicacion": "Estante B1"
+      },
+      {
+        "titulo": "La Divina Comedia",
+        "autor": "Dante Alighieri",
+        "genero": "Poesía Épica",
+        "codigo": "BIB022",
+        "ubicacion": "Estante B2"
+      },
+      {
+        "titulo": "Los Hermanos Karamázov",
+        "autor": "Fiódor Dostoyevski",
+        "genero": "Filosofía",
+        "codigo": "BIB023",
+        "ubicacion": "Estante B3"
+      },
+      {
+        "titulo": "El Idiota",
+        "autor": "Fiódor Dostoyevski",
+        "genero": "Filosofía",
+        "codigo": "BIB024",
+        "ubicacion": "Estante B4"
+      },
+      {
+        "titulo": "Anna Karenina",
+        "autor": "León Tolstói",
+        "genero": "Novela",
+        "codigo": "BIB025",
+        "ubicacion": "Estante B5"
+      },
+      {
+        "titulo": "Guerra y Paz",
+        "autor": "León Tolstói",
+        "genero": "Novela",
+        "codigo": "BIB026",
+        "ubicacion": "Estante B6"
+      },
+      {
+        "titulo": "Madame Bovary",
+        "autor": "Gustave Flaubert",
+        "genero": "Ficción",
+        "codigo": "BIB027",
+        "ubicacion": "Estante B7"
+      },
+      {
+        "titulo": "El Paraíso Perdido",
+        "autor": "John Milton",
+        "genero": "Poesía Épica",
+        "codigo": "BIB028",
+        "ubicacion": "Estante B8"
+      },
+      {
+        "titulo": "Los Viajes de Gulliver",
+        "autor": "Jonathan Swift",
+        "genero": "Aventura",
+        "codigo": "BIB029",
+        "ubicacion": "Estante B9"
+      },
+      {
+        "titulo": "El Principito",
+        "autor": "Antoine de Saint-Exupéry",
+        "genero": "Fábula",
+        "codigo": "BIB030",
+        "ubicacion": "Estante B10"
+      },
+      {
+        "titulo": "El Lobo Estepario",
+        "autor": "Hermann Hesse",
+        "genero": "Filosofía",
+        "codigo": "BIB031",
+        "ubicacion": "Estante B11"
+      },
+      {
+        "titulo": "Demian",
+        "autor": "Hermann Hesse",
+        "genero": "Filosofía",
+        "codigo": "BIB032",
+        "ubicacion": "Estante B12"
+      },
+      {
+        "titulo": "El Nombre de la Rosa",
+        "autor": "Umberto Eco",
+        "genero": "Misterio",
+        "codigo": "BIB033",
+        "ubicacion": "Estante B13"
+      },
+      {
+        "titulo": "El Amor en los Tiempos del Cólera",
+        "autor": "Gabriel García Márquez",
+        "genero": "Romance",
+        "codigo": "BIB034",
+        "ubicacion": "Estante B14"
+      },
+      {
+        "titulo": "Pedro Páramo",
+        "autor": "Juan Rulfo",
+        "genero": "Realismo Mágico",
+        "codigo": "BIB035",
+        "ubicacion": "Estante B15"
+      },
+      {
+        "titulo": "Rayuela",
+        "autor": "Julio Cortázar",
+        "genero": "Ficción",
+        "codigo": "BIB036",
+        "ubicacion": "Estante B16"
+      },
+      {
+        "titulo": "La Casa de los Espíritus",
+        "autor": "Isabel Allende",
+        "genero": "Realismo Mágico",
+        "codigo": "BIB037",
+        "ubicacion": "Estante B17"
+      },
+      {
+        "titulo": "El Aleph",
+        "autor": "Jorge Luis Borges",
+        "genero": "Ficción",
+        "codigo": "BIB038",
+        "ubicacion": "Estante B18"
+      },
+      {
+        "titulo": "Ficciones",
+        "autor": "Jorge Luis Borges",
+        "genero": "Ficción",
+        "codigo": "BIB039",
+        "ubicacion": "Estante B19"
+      },
+      {
+        "titulo": "La Náusea",
+        "autor": "Jean-Paul Sartre",
+        "genero": "Filosofía",
+        "codigo": "BIB040",
+        "ubicacion": "Estante B20"
+      },
+      {
+        "titulo": "El Extranjero",
+        "autor": "Albert Camus",
+        "genero": "Filosofía",
+        "codigo": "BIB041",
+        "ubicacion": "Estante C1"
+      },
+      {
+        "titulo": "El Lobo de Wall Street",
+        "autor": "Jordan Belfort",
+        "genero": "Biografía",
+        "codigo": "BIB042",
+        "ubicacion": "Estante C2"
+      },
+      {
+        "titulo": "El Arte de la Guerra",
+        "autor": "Sun Tzu",
+        "genero": "Filosofía",
+        "codigo": "BIB043",
+        "ubicacion": "Estante C3"
+      },
+      {
+        "titulo": "El Conde de Montecristo",
+        "autor": "Alexandre Dumas",
+        "genero": "Aventura",
+        "codigo": "BIB044",
+        "ubicacion": "Estante C4"
+      },
+      {
+        "titulo": "Veinte Mil Leguas de Viaje Submarino",
+        "autor": "Julio Verne",
+        "genero": "Ciencia Ficción",
+        "codigo": "BIB045",
+        "ubicacion": "Estante C5"
+      },
+      {
+        "titulo": "La Máquina del Tiempo",
+        "autor": "H.G. Wells",
+        "genero": "Ciencia Ficción",
+        "codigo": "BIB046",
+        "ubicacion": "Estante C6"
+      },
+      {
+        "titulo": "El Hombre que Calculaba",
+        "autor": "Malba Tahan",
+        "genero": "Matemática",
+        "codigo": "BIB047",
+        "ubicacion": "Estante C7"
+      },
+      {
+        "titulo": "El Perfume",
+        "autor": "Patrick Süskind",
+        "genero": "Ficción",
+        "codigo": "BIB048",
+        "ubicacion": "Estante C8"
+      },
+      {
+        "titulo": "La Sombra del Viento",
+        "autor": "Carlos Ruiz Zafón",
+        "genero": "Misterio",
+        "codigo": "BIB049",
+        "ubicacion": "Estante C9"
+      },
+      {
+        "titulo": "El Juego del Ángel",
+        "autor": "Carlos Ruiz Zafón",
+        "genero": "Misterio",
+        "codigo": "BIB050",
+        "ubicacion": "Estante C10"
+      },
+      {
+        "titulo": "Cumbres Borrascosas",
+        "autor": "Emily Brontë",
+        "genero": "Romance",
+        "codigo": "BIB051",
+        "ubicacion": "Estante C11"
+      },
+      {
+        "titulo": "Jane Eyre",
+        "autor": "Charlotte Brontë",
+        "genero": "Romance",
+        "codigo": "BIB052",
+        "ubicacion": "Estante C12"
+      },
+      {
+        "titulo": "Rebelión en la Granja",
+        "autor": "George Orwell",
+        "genero": "Distopía",
+        "codigo": "BIB053",
+        "ubicacion": "Estante C13"
+      },
+      {
+        "titulo": "Fahrenheit 451",
+        "autor": "Ray Bradbury",
+        "genero": "Distopía",
+        "codigo": "BIB054",
+        "ubicacion": "Estante C14"
+      },
+      {
+        "titulo": "El Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "genero": "Fantasía",
+        "codigo": "BIB055",
+        "ubicacion": "Estante C15"
+      },
+      {
+        "titulo": "El Señor de los Anillos",
+        "autor": "J.R.R. Tolkien",
+        "genero": "Fantasía",
+        "codigo": "BIB056",
+        "ubicacion": "Estante C16"
+      },
+      {
+        "titulo": "Crónicas de Narnia",
+        "autor": "C.S. Lewis",
+        "genero": "Fantasía",
+        "codigo": "BIB057",
+        "ubicacion": "Estante C17"
+      },
+      {
+        "titulo": "La Historia Interminable",
+        "autor": "Michael Ende",
+        "genero": "Fantasía",
+        "codigo": "BIB058",
+        "ubicacion": "Estante C18"
+      },
+      {
+        "titulo": "El Nombre del Viento",
+        "autor": "Patrick Rothfuss",
+        "genero": "Fantasía",
+        "codigo": "BIB059",
+        "ubicacion": "Estante C19"
+      },
+      {
+        "titulo": "El Temor de un Hombre Sabio",
+        "autor": "Patrick Rothfuss",
+        "genero": "Fantasía",
+        "codigo": "BIB060",
+        "ubicacion": "Estante C20"
+      },
+      {
+        "titulo": "Las Crónicas de Prydain",
+        "autor": "Lloyd Alexander",
+        "genero": "Fantasía",
+        "codigo": "BIB061",
+        "ubicacion": "Estante D1"
+      },
+      {
+        "titulo": "La Espada en la Piedra",
+        "autor": "T.H. White",
+        "genero": "Fantasía",
+        "codigo": "BIB062",
+        "ubicacion": "Estante D2"
+      },
+      {
+        "titulo": "La Materia Oscura",
+        "autor": "Philip Pullman",
+        "genero": "Fantasía",
+        "codigo": "BIB063",
+        "ubicacion": "Estante D3"
+      },
+      {
+        "titulo": "La Torre Oscura",
+        "autor": "Stephen King",
+        "genero": "Fantasía",
+        "codigo": "BIB064",
+        "ubicacion": "Estante D4"
+      },
+      {
+        "titulo": "El Resplandor",
+        "autor": "Stephen King",
+        "genero": "Terror",
+        "codigo": "BIB065",
+        "ubicacion": "Estante D5"
+      },
+      {
+        "titulo": "It",
+        "autor": "Stephen King",
+        "genero": "Terror",
+        "codigo": "BIB066",
+        "ubicacion": "Estante D6"
+      },
+      {
+        "titulo": "Cementerio de Animales",
+        "autor": "Stephen King",
+        "genero": "Terror",
+        "codigo": "BIB067",
+        "ubicacion": "Estante D7"
+      },
+      {
+        "titulo": "El Exorcista",
+        "autor": "William Peter Blatty",
+        "genero": "Terror",
+        "codigo": "BIB068",
+        "ubicacion": "Estante D8"
+      },
+      {
+        "titulo": "Entrevista con el Vampiro",
+        "autor": "Anne Rice",
+        "genero": "Terror",
+        "codigo": "BIB069",
+        "ubicacion": "Estante D9"
+      },
+      {
+        "titulo": "El Silencio de los Corderos",
+        "autor": "Thomas Harris",
+        "genero": "Thriller",
+        "codigo": "BIB070",
+        "ubicacion": "Estante D10"
+      },
+      {
+        "titulo": "Los Pilares de la Tierra",
+        "autor": "Ken Follett",
+        "genero": "Histórica",
+        "codigo": "BIB071",
+        "ubicacion": "Estante D11"
+      },
+      {
+        "titulo": "Un Mundo Sin Fin",
+        "autor": "Ken Follett",
+        "genero": "Histórica",
+        "codigo": "BIB072",
+        "ubicacion": "Estante D12"
+      },
+      {
+        "titulo": "La Catedral del Mar",
+        "autor": "Ildefonso Falcones",
+        "genero": "Histórica",
+        "codigo": "BIB073",
+        "ubicacion": "Estante D13"
+      },
+      {
+        "titulo": "La Reina Descalza",
+        "autor": "Ildefonso Falcones",
+        "genero": "Histórica",
+        "codigo": "BIB074",
+        "ubicacion": "Estante D14"
+      },
+      {
+        "titulo": "El Médico",
+        "autor": "Noah Gordon",
+        "genero": "Histórica",
+        "codigo": "BIB075",
+        "ubicacion": "Estante D15"
+      },
+      {
+        "titulo": "Chamán",
+        "autor": "Noah Gordon",
+        "genero": "Histórica",
+        "codigo": "BIB076",
+        "ubicacion": "Estante D16"
+      },
+      {
+        "titulo": "El Último Judío",
+        "autor": "Noah Gordon",
+        "genero": "Histórica",
+        "codigo": "BIB077",
+        "ubicacion": "Estante D17"
+      },
+      {
+        "titulo": "El Asesino Ciego",
+        "autor": "Margaret Atwood",
+        "genero": "Ficción",
+        "codigo": "BIB078",
+        "ubicacion": "Estante D18"
+      },
+      {
+        "titulo": "La Mujer Habitada",
+        "autor": "Gioconda Belli",
+        "genero": "Ficción",
+        "codigo": "BIB079",
+        "ubicacion": "Estante D19"
+      },
+      {
+        "titulo": "El Dios de las Pequeñas Cosas",
+        "autor": "Arundhati Roy",
+        "genero": "Ficción",
+        "codigo": "BIB080",
+        "ubicacion": "Estante D20"
+      },
+      {
+        "titulo": "El Amor en los Tiempos del Cólera",
+        "autor": "Gabriel García Márquez",
+        "genero": "Romance",
+        "codigo": "BIB081",
+        "ubicacion": "Estante E1"
+      },
+      {
+        "titulo": "El Coronel no Tiene Quien le Escriba",
+        "autor": "Gabriel García Márquez",
+        "genero": "Ficción",
+        "codigo": "BIB082",
+        "ubicacion": "Estante E2"
+      },
+      {
+        "titulo": "Crónica de una Muerte Anunciada",
+        "autor": "Gabriel García Márquez",
+        "genero": "Ficción",
+        "codigo": "BIB083",
+        "ubicacion": "Estante E3"
+      },
+      {
+        "titulo": "Memoria de Mis Putas Tristes",
+        "autor": "Gabriel García Márquez",
+        "genero": "Ficción",
+        "codigo": "BIB084",
+        "ubicacion": "Estante E4"
+      },
+      {
+        "titulo": "Vivir para Contarla",
+        "autor": "Gabriel García Márquez",
+        "genero": "Biografía",
+        "codigo": "BIB085",
+        "ubicacion": "Estante E5"
+      },
+      {
+        "titulo": "Del Amor y Otros Demonios",
+        "autor": "Gabriel García Márquez",
+        "genero": "Ficción",
+        "codigo": "BIB086",
+        "ubicacion": "Estante E6"
+      },
+      {
+        "titulo": "El Laberinto de la Soledad",
+        "autor": "Octavio Paz",
+        "genero": "Ensayo",
+        "codigo": "BIB087",
+        "ubicacion": "Estante E7"
+      },
+      {
+        "titulo": "El Llano en Llamas",
+        "autor": "Juan Rulfo",
+        "genero": "Cuentos",
+        "codigo": "BIB088",
+        "ubicacion": "Estante E8"
+      },
+      {
+        "titulo": "La Hojarasca",
+        "autor": "Gabriel García Márquez",
+        "genero": "Ficción",
+        "codigo": "BIB089",
+        "ubicacion": "Estante E9"
+      },
+      {
+        "titulo": "Cuentos Completos",
+        "autor": "Julio Cortázar",
+        "genero": "Cuentos",
+        "codigo": "BIB090",
+        "ubicacion": "Estante E10"
+      },
+      {
+        "titulo": "Cien Sonetos de Amor",
+        "autor": "Pablo Neruda",
+        "genero": "Poesía",
+        "codigo": "BIB091",
+        "ubicacion": "Estante E11"
+      },
+      {
+        "titulo": "Residencia en la Tierra",
+        "autor": "Pablo Neruda",
+        "genero": "Poesía",
+        "codigo": "BIB092",
+        "ubicacion": "Estante E12"
+      },
+      {
+        "titulo": "Canto General",
+        "autor": "Pablo Neruda",
+        "genero": "Poesía",
+        "codigo": "BIB093",
+        "ubicacion": "Estante E13"
+      },
+      {
+        "titulo": "Veinte Poemas de Amor y una Canción Desesperada",
+        "autor": "Pablo Neruda",
+        "genero": "Poesía",
+        "codigo": "BIB094",
+        "ubicacion": "Estante E14"
+      },
+      {
+        "titulo": "Los Versos del Capitán",
+        "autor": "Pablo Neruda",
+        "genero": "Poesía",
+        "codigo": "BIB095",
+        "ubicacion": "Estante E15"
+      },
+      {
+        "titulo": "El Amor, las Mujeres y la Muerte",
+        "autor": "Arthur Schopenhauer",
+        "genero": "Filosofía",
+        "codigo": "BIB096",
+        "ubicacion": "Estante E16"
+      },
+      {
+        "titulo": "Así Habló Zaratustra",
+        "autor": "Friedrich Nietzsche",
+        "genero": "Filosofía",
+        "codigo": "BIB097",
+        "ubicacion": "Estante E17"
+      },
+      {
+        "titulo": "Más Allá del Bien y del Mal",
+        "autor": "Friedrich Nietzsche",
+        "genero": "Filosofía",
+        "codigo": "BIB098",
+        "ubicacion": "Estante E18"
+      },
+      {
+        "titulo": "La República",
+        "autor": "Platón",
+        "genero": "Filosofía",
+        "codigo": "BIB099",
+        "ubicacion": "Estante E19"
+      },
+      {
+        "titulo": "Meditaciones",
+        "autor": "Marco Aurelio",
+        "genero": "Filosofía",
+        "codigo": "BIB100",
+        "ubicacion": "Estante E20"
+      }
+    ]
+  }
+  
