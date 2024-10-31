@@ -16,3 +16,5 @@ Proyecto web con python y Flask para la gestión (CRUD) de libros, el cual conte
 - Estilos Boostrap
 - Flask, Python y objetos JSON
 (Opcional, iconos para los libros que muestren la caratula del libro, sino una imagen por defecto)
+
+Todo lo anterior quedó listo, recuerden ajustar estilos, imagenes, docuemntación en este readme, pruebas etc.
