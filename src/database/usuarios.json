@@ -1,20 +1,29 @@
 {
     "usuarios": [
         {
-          "id": 1,
-          "name": "Gabriel",
-          "lastname": "García",
-          "email": "correo@correo.com",
-          "password": "12345",
-          "rol": "ADMIN"
+            "id": 1,
+            "username": "admin",
+            "password": "admin123",
+            "role": "admin",
+            "nombre": "Administrador",
+            "email": "admin@biblioteca.com",
+            "bloqueado": false
         },
         {
             "id": 2,
-            "name": "Gabriela",
-            "lastname": "Velez",
-            "email": "correo@mail.com",
-            "password": "12345",
-            "rol": "USER"
-          }
+            "username": "usuario1",
+            "password": "usuario123",
+            "role": "user",
+            "nombre": "Usuario Uno",
+            "email": "usuario1@biblioteca.com"
+        },
+        {
+            "id": 3,
+            "username": "milu123",
+            "password": "milu123",
+            "role": "admin",
+            "nombre": "Milu ",
+            "email": "milu@mail.com"
+        }
     ]
 }
